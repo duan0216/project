@@ -1,0 +1,73 @@
+{
+  "openapi": {
+    "value": "http://192.168.10.135:8080/lrsemap/",
+    "comment": "配置服务器地址"
+  },
+  "irmis": {
+    "value": "112.94.224.249:9037",
+    "comment": "权限管理系统服务器地址，只需要IP地址和端口号"
+  },
+  "logout": {
+    "value": "http://112.94.224.249:9011/icas-nosql/logout",
+    "comment": "退出登录"
+  },
+  "interfaces": {
+    "importTxt": {
+      "comment": "导入单个面txt文件",
+      "value": "dbfx/lstb/importPolygonTxt"
+    },
+    "importTxtAll": {
+      "comment": "导入txt文件",
+      "value": "txt/import/showPolygon"
+    },
+    "importShp": {
+      "comment": "导入shape文件",
+      "value": "dbfx/lstb/shpUploadZip"
+    },
+    "importShpNew": {
+      "comment": "导入shape文件",
+      "value": "zyll/tools/import/shpShow"
+    },
+    "glandList": {
+      "comment": "压盖分析",
+      "value": "dltb/analyze/buffCover"
+    },
+    "queryAll":{
+      "comment": "绘图查询统计结果",
+      "value":"dltb/analyze/spaceQuery"
+    },
+    "queryCount":{
+      "comment": "查询统计总条数",
+      "value":"dltb/analyze/countSpace"
+    },
+    "queryDetails":{
+      "comment": "查询统计详细信息",
+      "value":"dltb/analyze/detail"
+    },
+    "filterWithCode":{
+      "comment": "根据地类编码筛选结果",
+      "value":"dltb/analyze/dlbmFilter"
+    },
+    "countWithCode":{
+      "comment": "根据地类编码查询总条数",
+      "value":"dltb/analyze/dlbmCount"
+    },
+    "landCodeStatistics":{
+      "comment": "根据地类编码查询统计结果",
+      "value":"dltb/analyze/dlbmStats"
+    },
+    "querybuffer":{
+      "comment":"图形缓冲空间查询",
+      "value":"dltb/analyze/buffQuery"
+    },
+    "querybuffercount":{
+      "comment":" 空间查询总记录数--图形缓冲",
+      "value":"dltb/analyze/buffCount"
+    }
+  },
+  "placeSearch":{
+    "value":"http://112.94.224.249:9011/imap-esb/apply/5dafb19ee4b079d5b6dd3958/imap-lbs-openapi/api/address/geo.do",
+    "comment":"地名查询"
+  }
+
+}

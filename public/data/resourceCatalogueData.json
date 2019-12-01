@@ -1,0 +1,1926 @@
+{
+  "result": [
+    {
+      "id": "679806a7-d465-11e9-a2a3-0235d2b38928",
+      "name": "现状数据（XZ）",
+      "level": 1,
+      "layer": [
+        {
+          "id": "679806a6-d465-11e9-a2a3-0235d2b38928",
+          "name": "测绘（CH）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "679806a5-d465-11e9-a2a3-0235d2b38928",
+              "name": "测量控制点",
+              "level": 3,
+              "url": "http://112.94.224.249:9011/imap-esb/apply/5d84dd44e4b0e127c8755023/arcgis/rest/services/dongying/XZ_CH_CLKZD_2018/MapServer",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer":[]
+            },
+            {
+              "id": "6798069f-d465-11e9-a2a3-0235d2b38928",
+              "name": "遥感影像",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "6798069e-d465-11e9-a2a3-0235d2b38928",
+                  "name": "遥感影像（2019/0.2米）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798069d-d465-11e9-a2a3-0235d2b38928",
+                  "name": "遥感影像（2015/0.1米）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "6798069c-d465-11e9-a2a3-0235d2b38928",
+              "name": "地形图",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "6798069b-d465-11e9-a2a3-0235d2b38928",
+                  "name": "DLG（2019/1:500）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "6798069a-d465-11e9-a2a3-0235d2b38928",
+              "name": "行政区",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980699-d465-11e9-a2a3-0235d2b38928",
+                  "name": "行政区（2005）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980698-d465-11e9-a2a3-0235d2b38928",
+                  "name": "行政区（2009）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980697-d465-11e9-a2a3-0235d2b38928",
+                  "name": "行政区（2010）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980696-d465-11e9-a2a3-0235d2b38928",
+                  "name": "行政区（2011）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980695-d465-11e9-a2a3-0235d2b38928",
+                  "name": "行政区（2012）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980694-d465-11e9-a2a3-0235d2b38928",
+                  "name": "行政区（2013）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980693-d465-11e9-a2a3-0235d2b38928",
+                  "name": "行政区（2014）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9036/imap-esb/apply/5d634fde454c845477635e8a/arcgis/rest/services/dongying/XZ_CH_XZQ_2014/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "XJXZQ_2014,XIJXZQ_2014,CJXZQ_2014",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "67980692-d465-11e9-a2a3-0235d2b38928",
+              "name": "地名地址",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980691-d465-11e9-a2a3-0235d2b38928",
+                  "name": "地名地址（2014）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "67980690-d465-11e9-a2a3-0235d2b38928",
+          "name": "地质（DZ）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "6798068f-d465-11e9-a2a3-0235d2b38928",
+              "name": "地质调查",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "6798068e-d465-11e9-a2a3-0235d2b38928",
+              "name": "矿山地质环境",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "6798068d-d465-11e9-a2a3-0235d2b38928",
+              "name": "地质灾害",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        },
+        {
+          "id": "6798068c-d465-11e9-a2a3-0235d2b38928",
+          "name": "地理国情普查（GQPC）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "6798068b-d465-11e9-a2a3-0235d2b38928",
+              "name": "地表形态",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "6798068a-d465-11e9-a2a3-0235d2b38928",
+              "name": "地表覆盖",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "67980689-d465-11e9-a2a3-0235d2b38928",
+              "name": "重要地理国情要素",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        },
+        {
+          "id": "67980688-d465-11e9-a2a3-0235d2b38928",
+          "name": "国土调查数据（GTDC）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "67980687-d465-11e9-a2a3-0235d2b38928",
+              "name": "土地利用现状",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980686-d465-11e9-a2a3-0235d2b38928",
+                  "name": "土地利用现状（2005）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980685-d465-11e9-a2a3-0235d2b38928",
+                  "name": "土地利用现状（2009）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980684-d465-11e9-a2a3-0235d2b38928",
+                  "name": "土地利用现状（2010）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980683-d465-11e9-a2a3-0235d2b38928",
+                  "name": "土地利用现状（2011）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980682-d465-11e9-a2a3-0235d2b38928",
+                  "name": "土地利用现状（2012）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980681-d465-11e9-a2a3-0235d2b38928",
+                  "name": "土地利用现状（2013）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980680-d465-11e9-a2a3-0235d2b38928",
+                  "name": "土地利用现状（2014）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798067f-d465-11e9-a2a3-0235d2b38928",
+                  "name": "土地利用现状（2015）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798067e-d465-11e9-a2a3-0235d2b38928",
+                  "name": "土地利用现状（2016）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d75c42be4b0076de735f50d/arcgis/rest/services/dongying/XZ_GTDC_TDLYXZ_2016/MapServer/tile/{z}/{y}/{x}",
+                  "type":"WebTiledLayer",
+                  "code": "DLTB_2016",
+                  "layer": []
+                },
+                {
+                  "id": "499abe59-171e-4d81-9301-c5564da7d0be",
+                  "name": "土地利用现状（2018）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d84de49e4b0e127c8755024/arcgis/rest/services/dongying/XZ_GTDC_TDLYXZ_2018/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "DLTB_2018",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "6798067d-d465-11e9-a2a3-0235d2b38928",
+              "name": "变更调查数据",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "6798067c-d465-11e9-a2a3-0235d2b38928",
+                  "name": "监察图斑（2011-2012）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798067b-d465-11e9-a2a3-0235d2b38928",
+                  "name": "监察图斑（2016）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "6798067a-d465-11e9-a2a3-0235d2b38928",
+              "name": "地籍测量数据",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980679-d465-11e9-a2a3-0235d2b38928",
+                  "name": "地籍区（2016）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5db15215e4b052c795f8546d/arcgis/rest/services/dongying/XZQ_DJQ/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980678-d465-11e9-a2a3-0235d2b38928",
+                  "name": "地籍子区（2016）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5db1520de4b052c795f8546c/arcgis/rest/services/dongying/XZQ_DJZQ/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "67980677-d465-11e9-a2a3-0235d2b38928",
+          "name": "耕地资源（GDZY）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "67980676-d465-11e9-a2a3-0235d2b38928",
+              "name": "基本农田",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980675-d465-11e9-a2a3-0235d2b38928",
+                  "name": "基本农田保护图斑（2009）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980674-d465-11e9-a2a3-0235d2b38928",
+                  "name": "基本农田保护片块（2009）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980673-d465-11e9-a2a3-0235d2b38928",
+                  "name": "基本农田保护图斑（2016）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980672-d465-11e9-a2a3-0235d2b38928",
+                  "name": "基本农田保护片块（2016）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "67980671-d465-11e9-a2a3-0235d2b38928",
+              "name": "耕地后备资源",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980670-d465-11e9-a2a3-0235d2b38928",
+                  "name": "已实施项目耕地后备资源图斑",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798066f-d465-11e9-a2a3-0235d2b38928",
+                  "name": "未实施项目耕地后备资源图斑",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798066e-d465-11e9-a2a3-0235d2b38928",
+                  "name": "未能划入项目耕地后备资源图斑",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798066d-d465-11e9-a2a3-0235d2b38928",
+                  "name": "规划项目内耕地后备资源图斑",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6798066c-d465-11e9-a2a3-0235d2b38928",
+          "name": "矿产资源（KCZY）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "6798066b-d465-11e9-a2a3-0235d2b38928",
+              "name": "矿产资源潜力评价数据",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "6798066a-d465-11e9-a2a3-0235d2b38928",
+              "name": "矿产地分布图",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980669-d465-11e9-a2a3-0235d2b38928",
+                  "name": "热田分布区",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980668-d465-11e9-a2a3-0235d2b38928",
+                  "name": "地下淡水资源分布",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980667-d465-11e9-a2a3-0235d2b38928",
+                  "name": "卤水分布区",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980666-d465-11e9-a2a3-0235d2b38928",
+                  "name": "粘土分布区",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980665-d465-11e9-a2a3-0235d2b38928",
+                  "name": "岩盐石膏分布区",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "67980664-d465-11e9-a2a3-0235d2b38928",
+          "name": "森林资源（SLZY）",
+          "level": 2,
+          "layer": [
+          ]
+        },
+        {
+          "id": "67980663-d465-11e9-a2a3-0235d2b38928",
+          "name": "湿地资源（SDZY）",
+          "level": 2,
+          "layer": []
+        },
+        {
+          "id": "67980662-d465-11e9-a2a3-0235d2b38928",
+          "name": "草原资源（CDZY）",
+          "level": 2,
+          "layer": []
+        },
+        {
+          "id": "67980661-d465-11e9-a2a3-0235d2b38928",
+          "name": "灾害（ZH）",
+          "level": 2,
+          "layer": []
+        },
+        {
+          "id": "67980660-d465-11e9-a2a3-0235d2b38928",
+          "name": "交通（JT）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "6798065f-d465-11e9-a2a3-0235d2b38928",
+              "name": "公路",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "6798065e-d465-11e9-a2a3-0235d2b38928",
+                  "name": "路网数据（2011）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6798065d-d465-11e9-a2a3-0235d2b38928",
+          "name": "文化旅游（WHLY）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "6798065c-d465-11e9-a2a3-0235d2b38928",
+              "name": "人文旅游",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "6798065b-d465-11e9-a2a3-0235d2b38928",
+                  "name": "重点文物保护单位",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "6798065a-d465-11e9-a2a3-0235d2b38928",
+              "name": "自然旅游",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980659-d465-11e9-a2a3-0235d2b38928",
+                  "name": "旅游风景区",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "67980658-d465-11e9-a2a3-0235d2b38928",
+      "name": "规划数据（GH）",
+      "level": 1,
+      "layer": [
+        {
+          "id": "67980657-d465-11e9-a2a3-0235d2b38928",
+          "name": "开发评价（KFPJ）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "67980656-d465-11e9-a2a3-0235d2b38928",
+              "name": "资源环境承载能力",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "67980655-d465-11e9-a2a3-0235d2b38928",
+              "name": "国土空间开发适宜性评价",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        },
+        {
+          "id": "67980654-d465-11e9-a2a3-0235d2b38928",
+          "name": "重要控制线（ZYKZX）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "67980653-d465-11e9-a2a3-0235d2b38928",
+              "name": "生态保护红线",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "67980652-d465-11e9-a2a3-0235d2b38928",
+              "name": "永久基本农田",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "67980651-d465-11e9-a2a3-0235d2b38928",
+              "name": "城镇开发边界",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        },
+        {
+          "id": "67980650-d465-11e9-a2a3-0235d2b38928",
+          "name": "国土空间规划（GTKJGH）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "6798064f-d465-11e9-a2a3-0235d2b38928",
+              "name": "各级空间规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        },
+        {
+          "id": "6798064e-d465-11e9-a2a3-0235d2b38928",
+          "name": "功能区划（GNQH）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "6798064d-d465-11e9-a2a3-0235d2b38928",
+              "name": "主体功能区划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        },
+        {
+          "id": "6798064c-d465-11e9-a2a3-0235d2b38928",
+          "name": "土地利用规划（TDLYGH）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "6798064b-d465-11e9-a2a3-0235d2b38928",
+              "name": "土地利用总体规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "6798064a-d465-11e9-a2a3-0235d2b38928",
+                  "name": "规划调整（2014）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980649-d465-11e9-a2a3-0235d2b38928",
+                  "name": "规划调整（2015）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980648-d465-11e9-a2a3-0235d2b38928",
+                  "name": "规划调整（2016）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "00d38307-71bb-4864-864d-4d2b0b4c543c",
+                  "name": "土地规划地类（2018）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d7efaf5e4b0076de735f515/arcgis/rest/services/dongying/GH_TDLYGH_TDGHDL_2018/MapServer/tile/{z}/{y}/{x}",
+                  "type":"WebTiledLayer",
+                  "code": "XIJHGDLTB_2018",
+                  "layer": []
+                },
+                {
+                  "id": "67980646-d465-11e9-a2a3-0235d2b38928",
+                  "name": "建设用地管制区（2017）",
+                  "level": 4,
+                  "url": "",
+                  "type":"WebTiledLayer",
+                  "code": "JSYDGZQ_2017",
+                  "layer": []
+                },
+                {
+                  "id": "67980645-d465-11e9-a2a3-0235d2b38928",
+                  "name": "土地规划地类（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980644-d465-11e9-a2a3-0235d2b38928",
+                  "name": "市级建设用地管制区（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980643-d465-11e9-a2a3-0235d2b38928",
+                  "name": "县级建设用地管制区（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980642-d465-11e9-a2a3-0235d2b38928",
+                  "name": "乡级建设用地管制区（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "f752bed9-cf17-4e10-994a-3d835a813bcf",
+                  "name": "乡级建设用地管制区（2018）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d7efad5e4b0076de735f512/arcgis/rest/services/dongying/GH_TDLYGH_XIJJSYDGZQ_2018/MapServer/tile/{z}/{y}/{x}",
+                  "type":"WebTiledLayer",
+                  "code": "XIJJSYDGZQ_2018",
+                  "layer": []
+                },
+                {
+                  "id": "67980641-d465-11e9-a2a3-0235d2b38928",
+                  "name": "县级土地用途区（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980640-d465-11e9-a2a3-0235d2b38928",
+                  "name": "乡级土地用途区（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "1b022eb6-d5a1-4fcf-985E-9b2040632c74",
+                  "name": "乡级土地用途区（2018）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d7efca5e4b0076de735f518/arcgis/rest/services/dongying/GH_TDLYGH_XIJTDYTQ_2018/MapServer/tile/{z}/{y}/{x}",
+                  "type":"WebTiledLayer",
+                  "code": "TDLYGH_XIJTDYTQ_2018",
+                  "layer": []
+                },
+                {
+                  "id": "6798063f-d465-11e9-a2a3-0235d2b38928",
+                  "name": "市级建设用地管制边界（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798063e-d465-11e9-a2a3-0235d2b38928",
+                  "name": "县级建设用地管制边界（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798063d-d465-11e9-a2a3-0235d2b38928",
+                  "name": "乡级建设用地管制边界（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "e655608a-7fdd-4b41-8af3-1278a256c6c2",
+                  "name": "乡级建设用地管制边界（2018）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d7efadce4b0076de735f513/arcgis/rest/services/dongying/GH_TDLYGH_XIJJSYDGZBJ_2018/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "TDLYGH_XIJJSYDGZBJ_2018",
+                  "layer": []
+                },
+                {
+                  "id": "6798063c-d465-11e9-a2a3-0235d2b38928",
+                  "name": "市级规划基期（2005）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798063b-d465-11e9-a2a3-0235d2b38928",
+                  "name": "县级规划基期（2005）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798063a-d465-11e9-a2a3-0235d2b38928",
+                  "name": "乡级规划基期（2005）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980639-d465-11e9-a2a3-0235d2b38928",
+                  "name": "市级重点建设项目（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980638-d465-11e9-a2a3-0235d2b38928",
+                  "name": "县级重点建设项目（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980637-d465-11e9-a2a3-0235d2b38928",
+                  "name": "乡级重点建设项目（2006-2020）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "cd906df6-ebd9-4def-9bfc-05e11909ffef",
+                  "name": "乡级重点建设项目（2018）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d7efacbe4b0076de735f511/arcgis/rest/services/dongying/GH_TDLYGH_XIJZDJSXM_2018/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "TDLYGH_XIJZDJSXM_2018",
+                  "layer": []
+                },
+                {
+                  "id": "5faaabd2-7595-4a9d-865A-3d325816e248",
+                  "name": "乡级村镇建设控制区（2018）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d7efae6e4b0076de735f514/arcgis/rest/services/dongying/GH_TDLYGH_XIJCZJSKZQ_2018/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "TDLYGH_XIJCZJSKZQ_2018",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "67980636-d465-11e9-a2a3-0235d2b38928",
+              "name": "土地整治规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980635-d465-11e9-a2a3-0235d2b38928",
+                  "name": "市级土地整治重点项目",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980634-d465-11e9-a2a3-0235d2b38928",
+                  "name": "县级土地整治重点项目",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980633-d465-11e9-a2a3-0235d2b38928",
+                  "name": "乡级土地整治重点项目（2018）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d7efb01e4b0076de735f516/arcgis/rest/services/dongying/GH_TDLYGH_XIJTDZZZDXM_2018/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "TDLYGH_XIJTDZZZDXM_2018",
+                  "layer": []
+                },
+                {
+                  "id": "67980632-d465-11e9-a2a3-0235d2b38928",
+                  "name": "乡级土地整治重点区域（2018）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d7efab9e4b0076de735f510/arcgis/rest/services/dongying/GH_TDLYGH_XIJTDZZZDQY_2018/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "TDLYGH_XIJTDZZZDQY_2018",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "67980631-d465-11e9-a2a3-0235d2b38928",
+              "name": "基本农田保护规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980630-d465-11e9-a2a3-0235d2b38928",
+                  "name": "市级规划基本农田调整",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798062f-d465-11e9-a2a3-0235d2b38928",
+                  "name": "县级规划基本农田调整",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798062e-d465-11e9-a2a3-0235d2b38928",
+                  "name": "乡级规划基本农田调整（2018）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d7efd1ae4b0076de735f519/arcgis/rest/services/dongying/GH_TDLYGH_XIJGHJBNTTZ_2018/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "TDLYGH_XIJGHJBNTTZ_2018",
+                  "layer": []
+                },
+                {
+                  "id": "6798062d-d465-11e9-a2a3-0235d2b38928",
+                  "name": "县级规划基本农田保护区",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798062c-d465-11e9-a2a3-0235d2b38928",
+                  "name": "乡级规划基本农田保护区（2018）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d7efd22e4b0076de735f51a/arcgis/rest/services/dongying/GH_TDLYGH_XIJGHJBNTBHQ_2018/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "XIJGHJBNTBHQ_2018",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6798062b-d465-11e9-a2a3-0235d2b38928",
+          "name": "城乡规划（CXGH）",
+          "level": 2,
+          "layer": []
+        },
+        {
+          "id": "6798062a-d465-11e9-a2a3-0235d2b38928",
+          "name": "矿产资源规划（KCZYGH）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "67980629-d465-11e9-a2a3-0235d2b38928",
+              "name": "矿产资源调查评价与勘查规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980628-d465-11e9-a2a3-0235d2b38928",
+                  "name": "调查评价与勘查规划",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980627-d465-11e9-a2a3-0235d2b38928",
+                  "name": "调查评价与勘查规划（2006）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "67980626-d465-11e9-a2a3-0235d2b38928",
+              "name": "矿产资源开发利用与保护规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980625-d465-11e9-a2a3-0235d2b38928",
+                  "name": "开采规划区块（2006）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "67980624-d465-11e9-a2a3-0235d2b38928",
+                  "name": "开发利用与保护规划（2006）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "67980623-d465-11e9-a2a3-0235d2b38928",
+              "name": "矿山环境保护与治理恢复规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980622-d465-11e9-a2a3-0235d2b38928",
+                  "name": "矿山环境保护与治理恢复规划",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "67980621-d465-11e9-a2a3-0235d2b38928",
+          "name": "专项规划（ZXGH）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "67980620-d465-11e9-a2a3-0235d2b38928",
+              "name": "林地、湿地与草原规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        },
+        {
+          "id": "6798061f-d465-11e9-a2a3-0235d2b38928",
+          "name": "地质与灾害规划（DZZHGH）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "6798061e-d465-11e9-a2a3-0235d2b38928",
+              "name": "地质勘查规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "6798061d-d465-11e9-a2a3-0235d2b38928",
+              "name": "地质环境保护规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "6798061c-d465-11e9-a2a3-0235d2b38928",
+              "name": "地质灾害防治规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "6798061b-d465-11e9-a2a3-0235d2b38928",
+              "name": "沙尘暴防治规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        },
+        {
+          "id": "6798061a-d465-11e9-a2a3-0235d2b38928",
+          "name": "自然保护地规划（ZRBHDGH）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "67980619-d465-11e9-a2a3-0235d2b38928",
+              "name": "自然保护区规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980618-d465-11e9-a2a3-0235d2b38928",
+                  "name": "自然保护区",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d9d390ee4b06c4562445593/arcgis/rest/services/dongying/GH_ZRBHDGH_ZRBHQ/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "9bbe98e0-1539-4434-a303-d911d3226712",
+              "name": "风景名胜区规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "caf0beb4-9be0-4096-8d58-dd3ae15b8fa0",
+                  "name": "风景名胜区",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d9d37e5e4b06c4562445592/arcgis/rest/services/dongying/GH_ZRBHDGH_FJMSQ/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "506c49a8-85e5-439d-9fc2-277cd76d188f",
+              "name": "湿地公园规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "38be1b83-6ed3-4afc-a2cd-856754d5ea8b",
+                  "name": "湿地公园",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d9d37c5e4b06c456244558e/arcgis/rest/services/dongying/GH_ZRBHDGH_SDGY/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "cf50d75b-02cf-4d82-ae98-c892e21c52d5",
+              "name": "国家公园规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "7f5ec3ce-5f35-42ff-b001-ff7ca3abf1b4",
+                  "name": "森林公园",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d9d37dbe4b06c4562445591/arcgis/rest/services/dongying/GH_ZRBHDGH_SLGY/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "c15b8ee1-4e42-45f0-b32e-b23d39eb60a0",
+              "name": "水产种质资源保护区",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "fc1b1f99-797b-4c85-b22c-859e4bbb58ec",
+                  "name": "水产种质资源保护区",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d9d37d6e4b06c4562445590/arcgis/rest/services/dongying/GH_ZRBHDGH_SCZZZYBHQ/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "134a90aa-4668-4ae0-a91c-bc94612061f1",
+              "name": "海洋特别保护区",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "e40d7516-2c6c-44fd-960e-478c8d5cb0e1",
+                  "name": "海洋特别保护区",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d9d37d0e4b06c456244558f/arcgis/rest/services/dongying/GH_ZRBHDGH_HYTBBHQ/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "id": "67980617-d465-11e9-a2a3-0235d2b38928",
+          "name": "其他专项规划（QTH）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "67980616-d465-11e9-a2a3-0235d2b38928",
+              "name": "环保规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "67980615-d465-11e9-a2a3-0235d2b38928",
+              "name": "水利规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "67980614-d465-11e9-a2a3-0235d2b38928",
+              "name": "公路规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        },
+        {
+          "id": "67980613-d465-11e9-a2a3-0235d2b38928",
+          "name": "详细规划（XXGH）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "67980612-d465-11e9-a2a3-0235d2b38928",
+              "name": "各级详细规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        },
+        {
+          "id": "67980611-d465-11e9-a2a3-0235d2b38928",
+          "name": "村庄规划（CZGH）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "67980610-d465-11e9-a2a3-0235d2b38928",
+              "name": "各级村庄规划",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6798060f-d465-11e9-a2a3-0235d2b38928",
+      "name": "管理数据（GL）",
+      "level": 1,
+      "layer": [
+        {
+          "id": "6798060e-d465-11e9-a2a3-0235d2b38928",
+          "name": "不动产登记（BDC）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "6798060d-d465-11e9-a2a3-0235d2b38928",
+              "name": "土地",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "6798060c-d465-11e9-a2a3-0235d2b38928",
+                  "name": "地表宗地",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5db151dce4b052c795f8546b/arcgis/rest/services/dongying/ZD_DBZD/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "BDC_DBZD_2016",
+                  "layer": []
+                },
+                {
+                  "id": "67980609-d465-11e9-a2a3-0235d2b38928",
+                  "name": "宗地（1994-2015）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d79bb02e4b0076de735f50f/arcgis/rest/services/dongying/GL_BDC_ZD/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "ZD_1994-2015",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "67980608-d465-11e9-a2a3-0235d2b38928",
+              "name": "房屋",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "67980607-d465-11e9-a2a3-0235d2b38928",
+                  "name": "房产_幢",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5db151bbe4b052c795f8546a/arcgis/rest/services/dongying/FC_Z/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798060a-d465-11e9-a2a3-0235d2b38928",
+                  "name": "登记信息",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "6798060b-d465-11e9-a2a3-0235d2b38928",
+                  "name": "查封信息",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "14cb027a-a8ce-4b89-954d-c43db079049b",
+                  "name": "抵押信息",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "67980606-d465-11e9-a2a3-0235d2b38928",
+          "name": "自然资源确权登记（ZRZYQQ）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "67980605-d465-11e9-a2a3-0235d2b38928",
+              "name": "河流",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "67980604-d465-11e9-a2a3-0235d2b38928",
+              "name": "森林",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "67980603-d465-11e9-a2a3-0235d2b38928",
+              "name": "山岭",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "67980602-d465-11e9-a2a3-0235d2b38928",
+              "name": "草原",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "67980601-d465-11e9-a2a3-0235d2b38928",
+              "name": "荒地",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "67980600-d465-11e9-a2a3-0235d2b38928",
+              "name": "滩涂",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "679805ff-d465-11e9-a2a3-0235d2b38928",
+              "name": "探明储量的矿产资源",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            }
+          ]
+        },
+        {
+          "id": "679805fe-d465-11e9-a2a3-0235d2b38928",
+          "name": "地政管理（DZGL）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "679805fd-d465-11e9-a2a3-0235d2b38928",
+              "name": "建设用地项目",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "679805fc-d465-11e9-a2a3-0235d2b38928",
+                  "name": "建设用地项目地块",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d75c1aae4b0076de735f50a/arcgis/rest/services/dongying/GL_DZGL_JSYD/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "NZYDK_2011-2016",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "679805fb-d465-11e9-a2a3-0235d2b38928",
+              "name": "土地供应",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "679805fa-d465-11e9-a2a3-0235d2b38928",
+                  "name": "供地地块（2010-2016）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d75c143e4b0076de735f509/arcgis/rest/services/dongying/GL_DZGL_GDDK_2010_2016/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "DZGL_GDDK_2010_2016",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "679805f9-d465-11e9-a2a3-0235d2b38928",
+              "name": "城市地价",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "679805f8-d465-11e9-a2a3-0235d2b38928",
+                  "name": "住宅基准地价（2007）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "ZZJZDJ_2007",
+                  "layer": []
+                },
+                {
+                  "id": "679805f7-d465-11e9-a2a3-0235d2b38928",
+                  "name": "商业基准地价（2007）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "SYJZDJ_2007",
+                  "layer": []
+                },
+                {
+                  "id": "679805f6-d465-11e9-a2a3-0235d2b38928",
+                  "name": "工业基准地价（2007）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "GYJZDJ_2007",
+                  "layer": []
+                },
+                {
+                  "id": "679805f5-d465-11e9-a2a3-0235d2b38928",
+                  "name": "住宅基准地价（2010）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "ZZJZDJ_2010",
+                  "layer": []
+                },
+                {
+                  "id": "679805f4-d465-11e9-a2a3-0235d2b38928",
+                  "name": "商业基准地价（2010）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "SYJZDJ_2010",
+                  "layer": []
+                },
+                {
+                  "id": "679805f3-d465-11e9-a2a3-0235d2b38928",
+                  "name": "工业基准地价（2010）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "GYJZDJ_2010",
+                  "layer": []
+                },
+                {
+                  "id": "679805f2-d465-11e9-a2a3-0235d2b38928",
+                  "name": "住宅基准地价（2011）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "ZZJZDJ_2011",
+                  "layer": []
+                },
+                {
+                  "id": "679805f1-d465-11e9-a2a3-0235d2b38928",
+                  "name": "商业基准地价（2011）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "SYJZDJ_2011",
+                  "layer": []
+                },
+                {
+                  "id": "679805f0-d465-11e9-a2a3-0235d2b38928",
+                  "name": "工业基准地价（2011）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "GYJZDJ_2011",
+                  "layer": []
+                },
+                {
+                  "id": "679805ef-d465-11e9-a2a3-0235d2b38928",
+                  "name": "住宅基准地价（2013）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "ZZJZDJ_2013",
+                  "layer": []
+                },
+                {
+                  "id": "679805ee-d465-11e9-a2a3-0235d2b38928",
+                  "name": "商业基准地价（2013）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "SYJZDJ_2013",
+                  "layer": []
+                },
+                {
+                  "id": "679805ed-d465-11e9-a2a3-0235d2b38928",
+                  "name": "工业基准地价（2013）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "GYJZDJ_2013",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "679805ec-d465-11e9-a2a3-0235d2b38928",
+              "name": "土地储备",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "679805eb-d465-11e9-a2a3-0235d2b38928",
+                  "name": "储备地块（2002-2010）",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d75c128e4b0076de735f508/arcgis/rest/services/dongying/GL_DZGL_CBDK_2002_2010/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "CBDK_2002-2010",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "679805ea-d465-11e9-a2a3-0235d2b38928",
+              "name": "土地市场",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "679805e9-d465-11e9-a2a3-0235d2b38928",
+                  "name": "招拍挂地块（2010-2012）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "ZPGDK_2010-2012",
+                  "layer": []
+                }
+              ]
+            },
+            {
+              "id": "679805e8-d465-11e9-a2a3-0235d2b38928",
+              "name": "批后监管",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "679805e7-d465-11e9-a2a3-0235d2b38928",
+                  "name": "批后监管项目地块（2011-2013）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "679805e6-d465-11e9-a2a3-0235d2b38928",
+                  "name": "批而未供（2011-2013）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "679805e5-d465-11e9-a2a3-0235d2b38928",
+          "name": "矿政管理（KZGL）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "679805e4-d465-11e9-a2a3-0235d2b38928",
+              "name": "矿业权",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "679805e3-d465-11e9-a2a3-0235d2b38928",
+                  "name": "矿业权设置方案（2016）",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "679805e2-d465-11e9-a2a3-0235d2b38928",
+                  "name": "矿业权设置方案",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "679805e1-d465-11e9-a2a3-0235d2b38928",
+          "name": "测政管理（CZGL）",
+          "level": 2,
+          "layer": []
+        },
+        {
+          "id": "679805e0-d465-11e9-a2a3-0235d2b38928",
+          "name": "其他管理数据（QTGLSJ）",
+          "level": 2,
+          "layer": []
+        },
+        {
+          "id": "679805df-d465-11e9-a2a3-0235d2b38928",
+          "name": "生态修复（STXF）",
+          "level": 2,
+          "layer": [
+            {
+              "id": "679805de-d465-11e9-a2a3-0235d2b38928",
+              "name": "国土空间综合整治",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": []
+            },
+            {
+              "id": "679805dd-d465-11e9-a2a3-0235d2b38928",
+              "name": "土地整治",
+              "level": 3,
+              "url": "",
+              "type":"ArcGISDynamicMapServiceLayer",
+              "code": "",
+              "layer": [
+                {
+                  "id": "679805dc-d465-11e9-a2a3-0235d2b38928",
+                  "name": "开复垦整理项目地块",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d84dbd1e4b0e127c8755021/arcgis/rest/services/dongying/GL_STXF_KFKZLXMDK/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "679805db-d465-11e9-a2a3-0235d2b38928",
+                  "name": "开复垦整理项目",
+                  "level": 4,
+                  "url": "",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                },
+                {
+                  "id": "679805da-d465-11e9-a2a3-0235d2b38928",
+                  "name": "城乡建设用地增减挂钩项目",
+                  "level": 4,
+                  "url": "http://112.94.224.249:9011/imap-esb/apply/5d858b75e4b0e127c8755026/arcgis/rest/services/dongying/GL_STXF_CXJSYDZJGGXM/MapServer",
+                  "type":"ArcGISDynamicMapServiceLayer",
+                  "code": "",
+                  "layer": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "woodlandLand": {
+    "comment": "林地地类",
+    "list": [
+      {"value":"111","label":"乔木林"},
+      {"value":"112","label":"红树林"},
+      {"value":"113","label":"竹林"},
+      {"value":"120","label":"疏林地"},
+      {"value":"131","label":"国家特别规定灌木林地"},
+      {"value":"132","label":"其它灌木林地"},
+      {"value":"133","label":"灌木林地"},
+      {"value":"141","label":"未成林造林地"},
+      {"value":"142","label":"未成林封育地"},
+      {"value":"150","label":"苗圃地"},
+      {"value":"161","label":"采伐迹地"},
+      {"value":"162","label":"火烧迹地"},
+      {"value":"163","label":"其它无立木林地"},
+      {"value":"164","label":"无立木林地"},
+      {"value":"165","label":"无立木林地"},
+      {"value":"167","label":"无立木林地"},
+      {"value":"171","label":"宜林荒山荒地"},
+      {"value":"172","label":"宜林沙荒地"},
+      {"value":"173","label":"其它宜林地"},
+      {"value":"180","label":"林业辅助生成用地"},
+      {"value":"210","label":"耕地"},
+      {"value":"220","label":"牧草地"},
+      {"value":"230","label":"水域"},
+      {"value":"240","label":"未利用地"},
+      {"value":"250","label":"建设用地"}
+    ]
+  },
+  "woodlandProtectionLevel": {
+    "comment": "林地保护等级",
+    "list": [
+      {"label":"Ⅰ级","value":"1"},
+      {"label":"Ⅱ级","value":"2"},
+      {"label":"Ⅳ级","value":"3"},
+      {"label":"Ⅴ级","value":"4"}
+    ]
+  },
+  "forestCategory": {
+    "comment": "森林（林地）类别",
+    "list": [
+      {"label":"重点公益林地","value":"011"},
+      {"label":"一般公益林地","value":"012"},
+      {"label":"重点商品林地","value":"021"},
+      {"label":"一般商品林地","value":"022"}
+    ]
+  },
+  "woodlandType": {
+    "comment": "林种",
+    "list": [
+      {"label":"水源涵养林","value":"111"},
+      {"label":"水土保持林","value":"112"},
+      {"label":"防风固沙林","value":"113"},
+      {"label":"农田牧场防护林","value":"114"},
+      {"label":"护岸林","value":"115"},
+      {"label":"护路林","value":"116"},
+      {"label":"其它防护林","value":"117"},
+      {"label":"国防林","value":"121"},
+      {"label":"实验林","value":"122"},
+      {"label":"母树林","value":"123"},
+      {"label":"环境保护林","value":"124"},
+      {"label":"风景林","value":"125"},
+      {"label":"名胜古迹和革命纪念林","value":"126"},
+      {"label":"自然保护林","value":"127"},
+      {"label":"一般用材林","value":"231"},
+      {"label":"速生丰产用材林","value":"232"},
+      {"label":"短轮伐期工业原料用材林","value":"233"},
+      {"label":"薪炭林","value":"240"},
+      {"label":"果树林","value":"251"},
+      {"label":"食用原料林","value":"252"},
+      {"label":"林化工业原料林","value":"253"},
+      {"label":"药用林","value":"254"},
+      {"label":"其它经济林","value":"255"}
+    ]
+  },
+  "woodlandOrigin": {
+    "comment": "起源",
+    "list": [
+      {"label":"纯天然","value":"11"},
+      {"label":"人工促进","value":"12"},
+      {"label":"天然萌生","value":"13"},
+      {"label":"人工植苗","value":"21"},
+      {"label":"人工直播","value":"22"},
+      {"label":"人工飞播","value":"23"},
+      {"label":"人工萌生","value":"24"}
+    ]
+  },
+  "woodlandOwnership": {
+    "comment": "林地土地权属",
+    "list": [
+      {"label":"国有林地","value":"10"},
+      {"label":"农户家庭承包经营","value":"21"},
+      {"label":"联户合作经营","value":"22"},
+      {"label":"集体经济组织经营","value":"23"}
+    ]
+  },
+  "landType": {
+    "comment": "地类编码",
+    "list": [
+      {"label":"水田","value":"011"},
+      {"label":"水浇地","value":"012"},
+      {"label":"旱地","value":"013"},
+      {"label":"果园","value":"021"},
+      {"label":"其他园地","value":"023"},
+      {"label":"有林地","value":"031"},
+      {"label":"灌木林地","value":"032"},
+      {"label":"其他林地","value":"033"},
+      {"label":"天然牧草地","value":"041"},
+      {"label":"人工牧草地","value":"042"},
+      {"label":"其他草地","value":"043"},
+      {"label":"铁路用地","value":"101"},
+      {"label":"公路用地","value":"102"},
+      {"label":"农村道路","value":"104"},
+      {"label":"机场道路","value":"105"},
+      {"label":"港口码头用地","value":"106"},
+      {"label":"管道运输用地","value":"107"},
+      {"label":"河流水面","value":"111"},
+      {"label":"水库水面","value":"113"},
+      {"label":"坑塘水面","value":"114"},
+      {"label":"沿海滩涂","value":"115"},
+      {"label":"内陆滩涂","value":"116"},
+      {"label":"沟渠","value":"117"},
+      {"label":"水工建筑用地","value":"118"},
+      {"label":"设施农用地","value":"122"},
+      {"label":"盐碱地","value":"124"},
+      {"label":"城市","value":"201"},
+      {"label":"建制镇","value":"202"},
+      {"label":"村庄","value":"203"},
+      {"label":"采矿用地","value":"204"},
+      {"label":"风景名胜及特殊用地","value":"205"}
+    ]
+  },
+  "ownershipNature": {
+    "comment": "权属性质",
+    "list": [
+      {"label":"国有土地所有权","value":"10"},
+      {"label":"集体土地所有权","value":"30"},
+      {"label":"村集体经济组织","value":"32"},
+      {"label":"其它农民集体经济组织","value":"34"},
+      {"label":"国有土地使用权","value":"20"},
+      {"label":"村民小组","value":"31"},
+      {"label":"乡集体经济组织","value":"33"},
+      {"label":"集体土地使用权","value":"40"}
+    ]
+  },
+  "constructionControlType": {
+    "comment": "建设用地管制区类型",
+    "list": [
+      {"label":"允许建设区","value":"010"},
+      {"label":"现状建设用地","value":"011"},
+      {"label":"新增建设用地","value":"012"},
+      {"label":"有条件建设区","value":"020"},
+      {"label":"限制建设区","value":"030"},
+      {"label":"禁止建设区","value":"040"}
+    ]
+  },
+  "controlPointType": {
+    "comment": "测量控制点类型",
+    "list": [
+      {"label":"水准点","value":"1"},
+      {"label":"三角点","value":"2"},
+      {"label":"GPS等级点","value":"3"},
+      {"label":"GPS连续点","value":"4"},
+      {"label":"地面沉降观测点","value":"5"}
+    ]
+  },
+  "certificateType": {
+    "comment": "证件类型",
+    "list": [
+      {"label":"居民身份证","value":"1"},
+      {"label":"军官证","value":"2"},
+      {"label":"护照","value":"3"},
+      {"label":"行政、企事业单位机构代码证或法人代码证","value":"4"},
+      {"label":"营业执照","value":"5"},
+      {"label":"其它","value":"9"}
+    ]
+  },
+  "mortgageMode": {
+    "comment": "抵押方式",
+    "list": [
+      {"label":"一般抵押","value":"1"},
+      {"label":"最高额抵押","value":"2"}
+    ]
+  },
+  "historicalState": {
+    "comment": "现实/历史状态",
+    "list": [
+      {"label":"现实","value":"0"},
+      {"label":"历史","value":"1"}
+    ]
+  },
+  "landUse": {
+    "comment": "建设用地-土地用途",
+    "list": [
+      {"value":"01","label":"耕地"},
+      {"value":"02","label":"园地"},
+      {"value":"03","label":"林地"},
+      {"value":"04","label":"草地"},
+      {"value":"05","label":"商服用地"},
+      {"value":"06","label":"工矿仓储用地"},
+      {"value":"07","label":"住宅用地"},
+      {"value":"08","label":"公共管理与公共服务用地"},
+      {"value":"09","label":"特殊用地"},
+      {"value":"10","label":"交通运输用地"},
+      {"value":"11","label":"水域及水利设施用地"},
+      {"value":"12","label":"其他土地"},
+      {"value":"20","label":"城镇村及工矿用地"}
+    ]
+  },
+  "landUseSupply": {
+    "comment": "土地供应-土地用途",
+    "list": [
+      {"value":"2501","label":"交通用地"},
+      {"value":"2502","label":"公共建筑"},
+      {"value":"2503","label":"公用设施"},
+      {"value":"2504","label":"工矿仓储用地"},
+      {"value":"2505","label":"经济适用房等非经营性用地"},
+      {"value":"2506","label":"普通商用房"},
+      {"value":"2507","label":"别墅、高档公寓"},
+      {"value":"2508","label":"商服用地"},
+      {"value":"2509","label":"特殊用地"},
+      {"value":"2510","label":"水域及水利设施用地"},
+      {"value":"2511","label":"规划道路"},
+      {"value":"2512","label":"规划河道"},
+      {"value":"2513","label":"规划绿化"},
+      {"value":"2514","label":"其他用地"},
+      {"value":"2515","label":"工业用地"},
+      {"value":"2517","label":"宅基地"}
+    ]
+  },
+  "landSupplyWay": {
+    "comment": "供地方式",
+    "list": [
+      {"value":"6001","label":"划拨"},
+      {"value":"6002","label":"协议出让"},
+      {"value":"6003","label":"招标"},
+      {"value":"6004","label":"拍卖"},
+      {"value":"6005","label":"挂牌"},
+      {"value":"6006","label":"租赁"},
+      {"value":"6007","label":"作价出资或入股"},
+      {"value":"6008","label":"集体土地使用"},
+      {"value":"6009","label":"招拍挂"}
+    ]
+  },
+  "projectType": {
+    "comment": "建设用地-项目类型",
+    "list": [
+      {"label":"城市分批次建设项目","value":"7101"},
+      {"label":"单独选址建设项目","value":"7102"}
+    ]
+  },
+  "projectTypeConsolidation": {
+    "comment": "土地整治-项目类型",
+    "list": [
+      {"value":"1001","label":"开发"},
+      {"value":"1002","label":"复垦"},
+      {"value":"1003","label":"整理"},
+      {"value":"1004","label":"整治"}
+    ]
+  },
+  "businessStatus": {
+    "comment": "土地整治-业务状态",
+    "list": [
+      {"value":"1","label":"立项"},
+      {"value":"2","label":"实施"},
+      {"value":"3","label":"验收"}
+    ]
+  },
+  "projectTypeStorage": {
+    "comment": "土地储备-项目类型",
+    "list": [
+      {"value":"01","label":"能源"},
+      {"value":"02","label":"交通"},
+      {"value":"03","label":"水利"},
+      {"value":"04","label":"电力"},
+      {"value":"05","label":"环保"},
+      {"value":"99","label":"其他"}
+    ]
+  },
+  "landUseSupervision": {
+    "comment": "批后监管-土地用途",
+    "list": [
+      {"value":"2001","label":"交通运输用地"},
+      {"value":"2002","label":"公共建筑用地"},
+      {"value":"2003","label":"公用设施用地"},
+      {"value":"2004","label":"工矿仓储用地"},
+      {"value":"2005","label":"住宅用地"},
+      {"value":"2006","label":"商服用地"},
+      {"value":"2007","label":"特殊用地"},
+      {"value":"2008","label":"水利设施用地"},
+      {"value":"2009","label":"其它"}
+    ]
+  },
+  "approvalAuthority": {
+    "comment": "批准机关",
+    "list": [
+      {"value":"7001","label":"国务院"},
+      {"value":"7002","label":"省政府"},
+      {"value":"7003","label":"市政府"}
+    ]
+  },
+  "landUseAreaType": {
+    "comment": "土地用途区类型",
+    "list": [
+      {"value":"010","label":"基本农田保护区"},
+      {"value":"020","label":"一般农地区"},
+      {"value":"030","label":"城镇建设用地区"},
+      {"value":"040","label":"村镇建设用地区"},
+      {"value":"050","label":"独立工矿用地区"},
+      {"value":"060","label":"风景旅游用地区"},
+      {"value":"070","label":"生态环境安全控制区"},
+      {"value":"080","label":"自然与文化遗产保护区"},
+      {"value":"090","label":"林业用地区"},
+      {"value":"100","label":"牧业用地区"},
+      {"value":"990","label":"其他用地区"}
+    ]
+  }
+}

@@ -1,0 +1,729 @@
+{
+	"version": 8,
+	"name": "emap data",
+	"glyphs": "http://172.16.54.33:8022/imap-vectorshow/{fontstack}/{range}.pbf",
+	"sprite": "http://172.16.54.33:8022/imap-vectorshow/img/maki",
+	"bearing":90,
+	"pitch":70,
+	"sources": {
+		"emap": {
+			"type": "vector",
+			"tiles": [
+				"http://172.16.54.33:8022/mvt/TDLY/1128.vt2/tiles/{z}/{y}/{x}"
+			],
+			"maxzoom": 17
+		}
+	},
+	"layers": [{
+		"id": "背景",
+		"type": "background",
+		"paint": {
+			"background-color": "#F5F4F3"
+		}
+	},{
+		"id":"水田",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0101"
+		],
+		"paint": {
+			"fill-color": "rgb(245,255,125)",
+			"fill-outline-color": "rgb(245,255,125)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"水浇地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0102"
+		],
+		"paint": {
+			"fill-color": "rgb(245,255,125)",
+			"fill-outline-color": "rgb(245,255,125)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"旱地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0103"
+		],
+		"paint": {
+			"fill-color": "rgb(245,255,125)",
+			"fill-outline-color": "rgb(245,255,125)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"果园",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0201"
+		],
+		"paint": {
+			"fill-color": "rgb(176,255,150)",
+			"fill-outline-color": "rgb(176,255,150)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"茶园",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0202"
+		],
+		"paint": {
+			"fill-color": "rgb(176,255,150)",
+			"fill-outline-color": "rgb(176,255,150)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"其他园地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0204"
+		],
+		"paint": {
+			"fill-color": "rgb(176,255,150)",
+			"fill-outline-color": "rgb(176,255,150)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"乔木林地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0301"
+		],
+		"paint": {
+			"fill-color": "rgb(121,210,121)",
+			"fill-outline-color": "rgb(121,210,121)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"竹林地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0302"
+		],
+		"paint": {
+			"fill-color": "rgb(121,210,121)",
+			"fill-outline-color": "rgb(121,210,121)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"灌木林地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0305"
+		],
+		"paint": {
+			"fill-color": "rgb(121,210,121)",
+			"fill-outline-color": "rgb(121,210,121)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"其他林地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0307"
+		],
+		"paint": {
+			"fill-color": "rgb(121,210,121)",
+			"fill-outline-color": "rgb(121,210,121)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"其他草地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0404"
+		],
+		"paint": {
+			"fill-color": "rgb(210,255,116)",
+			"fill-outline-color": "rgb(210,255,116)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"物流仓储用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0508"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"商业服务业设施用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"05H1"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"工业用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0601"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"采矿用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0602"
+		],
+		"paint": {
+			"fill-color": "rgb(210,160,121)",
+			"fill-outline-color": "rgb(210,160,121)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"城镇住宅用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0701"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"农村宅基地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0702"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"公用设施用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0809"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"公园与绿地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0810"
+		],
+		"paint": {
+			"fill-color": "rgb(176,255,150)",
+			"fill-outline-color": "rgb(176,255,150)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"广场用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"0810A"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"机关团体新闻出版用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"08H1"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"科教文卫用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"08H2"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"高教用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"08H2A"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"特殊用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"09"
+		],
+		"paint": {
+			"fill-color": "rgb(220,108,150)",
+			"fill-outline-color": "rgb(220,108,150)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"铁路用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1001"
+		],
+		"paint": {
+			"fill-color": "rgb(181,181,181)",
+			"fill-outline-color": "rgb(181,181,181)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"轨道交通用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1002"
+		],
+		"paint": {
+			"fill-color": "rgb(181,181,181)",
+			"fill-outline-color": "rgb(181,181,181)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"公路用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1003"
+		],
+		"paint": {
+			"fill-color": "rgb(250,156,48)",
+			"fill-outline-color": "rgb(250,156,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"城镇村道路用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1004"
+		],
+		"paint": {
+			"fill-color": "rgb(169,85,81)",
+			"fill-outline-color": "rgb(169,85,81)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"交通服务场站用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1005"
+		],
+		"paint": {
+			"fill-color": "rgb(169,85,81)",
+			"fill-outline-color": "rgb(169,85,81)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"农村道路",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1006"
+		],
+		"paint": {
+			"fill-color": "rgb(169,85,81)",
+			"fill-outline-color": "rgb(169,85,81)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"机场用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1007"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"港口码头用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1008"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"管道运输用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1009"
+		],
+		"paint": {
+			"fill-color": "rgb(250,150,48)",
+			"fill-outline-color": "rgb(250,150,48)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"河流水面",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1101"
+		],
+		"paint": {
+			"fill-color": "rgb(116,224,255)",
+			"fill-outline-color": "rgb(116,224,255)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"湖泊水面",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1102"
+		],
+		"paint": {
+			"fill-color": "rgb(116,224,255)",
+			"fill-outline-color": "rgb(116,224,255)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"水库水面",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1103"
+		],
+		"paint": {
+			"fill-color": "rgb(116,224,255)",
+			"fill-outline-color": "rgb(116,224,255)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"坑塘水面",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1104"
+		],
+		"paint": {
+			"fill-color": "rgb(116,224,255)",
+			"fill-outline-color": "rgb(116,224,255)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"养殖坑塘",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1104A"
+		],
+		"paint": {
+			"fill-color": "rgb(116,224,255)",
+			"fill-outline-color": "rgb(116,224,255)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"内陆滩涂",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1106"
+		],
+		"paint": {
+			"fill-color": "rgb(116,224,255)",
+			"fill-outline-color": "rgb(116,224,255)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"沟渠",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1107"
+		],
+		"paint": {
+			"fill-color": "rgb(116,224,255)",
+			"fill-outline-color": "rgb(116,224,255)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"干渠",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1107A"
+		],
+		"paint": {
+			"fill-color": "rgb(116,224,255)",
+			"fill-outline-color": "rgb(116,224,255)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"沼泽地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1108"
+		],
+		"paint": {
+			"fill-color": "rgb(116,224,255)",
+			"fill-outline-color": "rgb(116,224,255)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"水工建筑用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1109"
+		],
+		"paint": {
+			"fill-color": "rgb(225,116,255)",
+			"fill-outline-color": "rgb(225,116,255)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"空闲地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1201"
+		],
+		"paint": {
+			"fill-color": "rgb(134,134,134)",
+			"fill-outline-color": "rgb(134,134,134)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"设施农用地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1202"
+		],
+		"paint": {
+			"fill-color": "rgb(66,255,210)",
+			"fill-outline-color": "rgb(66,255,210)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"裸土地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1206"
+		],
+		"paint": {
+			"fill-color": "rgb(219,108,149)",
+			"fill-outline-color": "rgb(219,108,149)",
+			"fill-opacity": 1
+		}
+	},{
+		"id":"裸岩石砾地",
+		"source": "emap",
+		"source-layer": "xtdltb150",
+		"type": "fill",
+		"filter": [
+			"in",
+			"dlbm",
+			"1207"
+		],
+		"paint": {
+			"fill-color": "rgb(219,108,149)",
+			"fill-outline-color": "rgb(219,108,149)",
+			"fill-opacity": 1
+		}
+	}]
+}

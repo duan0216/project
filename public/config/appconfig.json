@@ -1,0 +1,31 @@
+{
+  "title": {
+    "pageTitle": "国土调查成果应用服务系统",
+    "bannerTitle":"国土调查成果应用服务系统"
+  },
+  "menu": {
+    "comment": "一级菜单",
+    "value": [
+      {
+        "title": "统计汇总",
+        "name": "summaryStatistics",
+        "icon": "icon-xmtj"
+      },
+      {
+        "title": "数据分析",
+        "name": "dataAnalysis",
+        "icon": "icon-ztfx"
+      },
+      {
+        "title": "可视化展示",
+        "name": "3",
+        "icon": "icon-fxpj"
+      },
+      {
+        "title": "历史追溯",
+        "name": "4",
+        "icon": "icon-cgsc"
+      }
+    ]
+  }
+}

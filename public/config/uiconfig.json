@@ -1,0 +1,206 @@
+{
+  "normalStyle": {
+    "message":"一般样式",
+    "stroke": {
+      "width": 4,
+      "pattern":{
+         "type":"gradientBlue"
+      },
+      "lineDash":null
+    },
+    "fill": {
+      "color": "rgba(255,255,255,0.2)"
+    },
+    "image":{
+      "type":"circle",
+      "options":{
+        "radius":8,
+        "color": "#00a4ff"
+      }
+    }
+  },
+  "drawStyle": {
+    "message":"绘图时的样式",
+    "stroke": {
+      "color": "rgb(216, 97, 18)",
+      "width": 4,
+      "lineDash":[3,5,9]
+    },
+    "fill": {
+      "color": "rgba(19, 130, 194,0.5)"
+    },
+    "image":{
+      "type":"circle",
+      "options":{
+        "radius":6,
+        "color": "#00a4ff"
+      }
+    }
+  },
+  "highLightStyle": {
+    "message":"选中高亮时的样式",
+    "stroke": {
+      "width": 4,
+      "pattern":{
+        "type":"gradientRed"
+      },
+      "lineDash":null
+    },
+    "fill": {
+      "color": "rgba(224, 16, 16,0.1)"
+    },
+    "image":{
+      "type":"location",
+      "options":{
+      }
+    }
+
+  },
+  "searchStyle": {
+    "message":"搜索后显示样式",
+    "stroke": {
+      "width": 3,
+      "color": "#00a4ff",
+      "lineDash":null
+    },
+    "fill": {
+      "color": "rgba(255,255,255,0.2)"
+    },
+    "image":{
+      "type":"circle",
+      "options":{
+        "radius":8,
+        "color": "#00a4ff"
+      }
+    }
+  },
+  "makerStyle":{
+    "message":"定位标记点样式",
+    "stroke": {
+      "color": "#f00",
+      "width": 2
+    },
+    "fill": {
+      "color": "rgba(19, 130, 194,0.5)"
+    },
+    "image":{
+      "type":"location",
+      "options":{
+        "color":"#1296db"
+      }
+    }
+  },
+  "highMakerStyle":{
+    "message":"选择的定位标记点样式",
+    "image":{
+      "type":"location",
+      "options":{
+        "color":"red"
+      }
+    }
+  },
+  "bufferStyle":{
+    "message":"设置缓冲区时样式",
+    "stroke": {
+      "color": "black",
+      "width": 4,
+      "lineDash":[1,8,8]
+    },
+    "fill": {
+      "color": "rgba(13, 16, 202,0.5)"
+    },
+    "image":{
+      "type":"circle",
+      "options":{
+        "radius":7,
+        "color": "#00a4ff"
+      }
+    }
+  },
+  "sortCircleStyle":{
+    "message":"填充序号样式",
+    "stroke": {
+      "color": "#f00",
+      "width": 2
+    },
+    "fill": {
+      "pattern": {
+        "type":"gradientSort"
+      }
+    },
+    "image":{
+      "type":"circle",
+      "options":{
+        "radius":7,
+        "color": "#00a4ff"
+      }
+    }
+  },
+  "distributeStyle":{
+    "message":"图形分布样式",
+    "stroke": {
+      "color": "#f00",
+      "width": 4,
+      "lineDash":[2,8,2]
+    },
+    "fill": {
+      "color": "rgba(19, 130, 194,0.5)"
+    },
+    "image":{
+      "type":"location",
+      "options":{
+        "color":"#f00"
+      }
+    }
+  },
+  "measureStyle":{
+    "message":"测量样式",
+    "stroke": {
+      "color": "#f00",
+      "width": 2
+    },
+    "fill": {
+      "color": "rgba(19, 130, 194,0.5)"
+    },
+    "image":{
+      "type":"location",
+      "options":{
+        "color":"#1296db"
+      }
+    }
+  },
+  "enforcementStyle1":{
+    "message":"违法样式",
+    "stroke": {
+      "color": "rgba(255, 0, 0, 1)",
+      "width": 4,
+      "lineDash":[2,8,2]
+    },
+    "fill": {
+      "color": "rgba(255, 0, 0, 0.5)"
+    },
+    "image":{
+      "type":"location",
+      "options":{
+        "color":"rgba(255, 0, 0, 1)"
+      }
+    }
+  },
+  "enforcementStyle2":{
+    "message":"合法样式",
+    "stroke": {
+      "color": "rgba(0, 153, 0, 1)",
+      "width": 4,
+      "lineDash":[2,8,2]
+    },
+    "fill": {
+      "color": "rgba(0, 153, 0, 0.5)"
+    },
+    "image":{
+      "type":"location",
+      "options":{
+        "color":"rgba(0, 153, 0, 1)"
+      }
+    }
+  }
+}

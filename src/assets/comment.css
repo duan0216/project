@@ -1,0 +1,518 @@
+/*通用样式*/
+
+/* html, */
+/* body, */
+div,
+p,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+select,
+button,
+textarea,
+iframe,
+table,
+th,
+td, * {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none !important;
+}
+
+fieldset,
+img {
+    border: 0 none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* acronym, */
+abbr {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+span,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+}
+
+
+/*全局字体大小，字体类型，字体颜色*/
+
+html,body {
+    font-size: 14px;
+    font-family: '微软雅黑', serif;
+    color: #999999;
+}
+
+
+/*颜色类*/
+
+.bg-color {
+    background-color: #19bdf0;
+}
+
+.text-color-w {
+    color: #FFFFFF;
+}
+
+.text-color-red {
+    color: #FF0000
+}
+
+.text-color-green {
+    color: #3D6D3D;
+    cursor: pointer;
+}
+
+
+/*定位类*/
+
+.a-position {
+    position: absolute;
+}
+
+.r-position {
+    position: relative;
+}
+
+.l-float {
+    float: left;
+}
+
+.r-float {
+    float: right;
+}
+
+.clear {
+    clear: both;
+    overflow: hidden;
+}
+
+.text-top {
+    vertical-align: top;
+}
+
+.text-middle {
+    vertical-align: middle;
+}
+
+.text-bottom {
+    vertical-align: bottom;
+}
+
+.text-center {
+    text-align: center;;
+}
+
+
+/*标题类*/
+
+.big-title {
+    padding: 10px 20px;
+    background-color: #66c3e9;
+}
+
+.small-title {
+    font-size: 16px;
+    color: #FFF;
+    padding: 5px 10px;
+    background-color: #3289d2;
+}
+
+
+/*input类*/
+
+.btn {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 3px;
+    color: #FFFFFF;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #3289d2;
+    box-shadow: 0 1px 1px #3289d2;
+    background-color: #3289d2;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.input-text {
+    width: 130px;
+    height: 24px;
+    line-height: 26px;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    color: #333;
+    text-indent: 5px;
+}
+
+.select-text {
+    width: 200px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    color: #292929;
+}
+
+.textarea-text {
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
+}
+
+.btn-add-color {
+    background-color: #1f5344;
+}
+
+
+/*表单类*/
+
+.table-form {
+    table-layout: fixed;
+}
+
+.table-form th {
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color: #3289d2;
+}
+
+.table-form th,
+.table-form td {
+    height: 30px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+/*窗口类*/
+
+.box {
+    /*border: 1px solid #FAFAFA;*/
+    /*box-shadow: 0 0 5px #727272;*/
+    border: 1px solid #DDD;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.box-content {
+    padding: 10px;
+    width: auto;
+    color: #292929;
+}
+
+.close {
+    font-size: 24px;
+    color: #FFF;
+    position: absolute;
+    top: -2px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.window-container {
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.window-box {
+    width: 260px;
+    height: 150px;
+    color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px #CCCCCC;
+}
+
+.window-box-content {
+    width: auto;
+    height: 90px;
+    margin: 0 5px 10px 5px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    color: #999999;
+}
+
+.window-btn {
+    bottom: 20px;
+    right: 20px;
+}
+
+/*滚动表单*/
+
+.table-scroll .table-form {
+    width: 100%;
+}
+
+.table-scroll .table-tbody {
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.table-scroll tr td:last-of-type {
+    /*width: auto;
+	padding-right: 20px;*/
+}
+
+
+/*梯形*/
+
+.trapezoid-div {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 70px;
+}
+
+.trapezoid-div .trapezoid {
+    display: inline-block;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #dddddd;
+    width: 0;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.trapezoid-div .trapezoid-text {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.trapezoid-left {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+
+/*三角形*/
+
+.triangle {
+    display: inline-block;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #ddd;
+}
+
+
+/*顯示類*/
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none !important;
+}
+
+
+/*菜单类*/
+
+.nav-active {
+    background: #24a2ea !important;
+}
+
+.nav-active-true {
+    background: #24a2ea !important;
+}
+
+.dd-active {
+    background: #3289d2 !important;
+}
+
+.active {
+    color: #74c9de;
+}
+
+.tool-active {
+    /*  background: url(../images/tool-icon.png) no-repeat !important;
+    background-color: #66c3e9 !important;
+  */
+}
+
+
+/*列表*/
+
+.list {
+    padding-bottom: 10px;
+}
+
+.label-line {
+    margin-right: 30px;
+}
+
+
+/*线*/
+
+.line {
+    border-bottom: 1px dashed #3289d2;
+}
+
+.dashed-line:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    margin: 30px 0 15px 0;
+    border-bottom: 1px dashed #bac893;
+}
+
+
+/*文字空格*/
+
+.space2 {
+    font-weight: normal;
+    margin: 0 14px;
+}
+
+.space1 {
+    font-weight: normal;
+    margin: 0 7px;
+}
+
+
+/*距离类*/
+
+.margin-l200 {
+    margin-left: 200px;
+}
+
+.margin-t30 {
+    margin-top: 30px;
+}
+
+.margin-l30 {
+    margin-left: 20px;
+}
+
+.margin-r80 {
+    margin-right: 80px;
+}
+
+
+/*宽度类*/
+
+.w148 {
+    width: 148px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w198 {
+    width: 198px;
+}
+
+.w-p-4 {
+    width: 4%;
+}
+
+.w40 {
+    width: 40px;
+}
+
+.w60 {
+    width: 60px;
+}
+
+.w80 {
+    width: 80px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w120 {
+    width: 120px;
+}
+
+.w150 {
+    width: 150px;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.w400 {
+    width: 400px;
+}

@@ -1,0 +1,169 @@
+{
+  "rows": 256,
+  "cols": 256,
+  "origin": [
+    33876800,
+    10002100
+  ],
+  "projection": {
+    "epsg": "EPSG:4527",
+    "proj": "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=39500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+    "extent":[
+      39535625.59927759,
+      4093094.435540768,
+      39761730.56772486,
+      4226353.36744874
+    ]
+  },
+  "lods": [
+      {
+        "level": 0,
+        "resolution": 78183.89453125001,
+        "scale": 2.9549759305875003E8,
+        "scaleVal": 300000000
+      },
+      {
+        "level": 1,
+        "resolution": 39091.94726562501,
+        "scale": 1.4774879652937502E8,
+        "scaleVal": 150000000
+      },
+      {
+        "level": 2,
+        "resolution": 19545.973632812504,
+        "scale": 7.387439826468751E7,
+        "scaleVal": 80000000
+      },
+      {
+        "level": 3,
+        "resolution": 9772.986816406252,
+        "scale": 3.6937199132343754E7,
+        "scaleVal": 36000000
+      },
+      {
+        "level": 4,
+        "resolution": 4886.493408203126,
+        "scale": 1.8468599566171877E7,
+        "scaleVal": 20000000
+      },
+      {
+        "level": 5,
+        "resolution": 2443.246704101563,
+        "scale": 9234299.783085939,
+        "scaleVal": 10000000
+      },
+      {
+        "level": 6,
+        "resolution": 1221.6233520507815,
+        "scale": 4617149.891542969,
+        "scaleVal": 4800000
+      },
+      {
+        "level": 7,
+        "resolution": 610.8116760253907,
+        "scale": 2308574.9457714846,
+        "scaleVal": 2400000
+      },
+      {
+        "level": 8,
+        "resolution": 305.40583801269537,
+        "scale": 1154287.4728857423,
+        "scaleVal": 1200000
+      },
+      {
+        "level": 9,
+        "resolution": 152.70291900634768,
+        "scale": 577143.7364428712,
+        "scaleVal": 560000
+      },
+      {
+        "level": 10,
+        "resolution": 76.35145950317384,
+        "scale": 288571.8682214356,
+        "scaleVal": 280000
+      },
+      {
+        "level": 11,
+        "resolution": 38.17572975158692,
+        "scale": 144285.9341107178,
+        "scaleVal": 140000
+      },
+      {
+        "level": 12,
+        "resolution": 19.08786487579346,
+        "scale": 72142.9670553589,
+        "scaleVal": 72000
+      },
+      {
+        "level": 13,
+        "resolution": 9.54393243789673,
+        "scale": 36071.48352767945,
+        "scaleVal": 36000
+      },
+      {
+        "level": 14,
+        "resolution": 4.771966218948365,
+        "scale": 18035.741763839724,
+        "scaleVal": 18000
+      },
+      {
+        "level": 15,
+        "resolution": 2.3859831094741826,
+        "scale": 9017.870881919862,
+        "scaleVal": 10000
+      },
+      {
+        "level": 16,
+        "resolution": 1.1929915547370913,
+        "scale": 4508.935440959931,
+        "scaleVal": 4000
+      },
+      {
+        "level": 17,
+        "resolution": 0.5964957773685456,
+        "scale": 2254.4677204799655,
+        "scaleVal": 2000
+      },
+      {
+        "level": 18,
+        "resolution": 0.2982478886842728,
+        "scale": 1127.2338602399827,
+        "scaleVal": 1000
+      }
+  ],
+  "initLevel": 6,
+  "center": [
+    39565702,
+    4235122
+  ],
+  "initExtent": [
+    39535625.59927759,
+    4093094.435540768,
+    39761730.56772486,
+    4226353.36744874
+  ],
+  "baseLayers": [
+    {
+      "GroupName": "规划地图",
+      "GroupImage": "./images/map_bg04.png",
+      "Layers": [
+        {
+          "layerName": "土地利用规划",
+          "type": "ArcGISTiledMapServiceLayer",
+          "url": "http://112.94.224.249:9011/imap-esb/apply/5d7efaf5e4b0076de735f515/arcgis/rest/services/dongying/GH_TDLYGH_TDGHDL_2018/MapServer/tile/{z}/{y}/{x}"
+        }
+      ]
+    },
+    {
+      "GroupName": "土地利用现状",
+      "GroupImage": "./images/map_bg03.png",
+      "Layers": [
+        {
+          "layerName": "东营现状地图",
+          "type": "ArcGISDynamicMapServiceLayer",
+          "url": "http://112.94.224.249:9011/imap-esb/apply/5d84de49e4b0e127c8755024/arcgis/rest/services/dongying/XZ_GTDC_TDLYXZ_2018/MapServer"
+        }
+      ]
+    }
+  ]
+}
