@@ -28,7 +28,7 @@
     "jsts": "^2.0.8",
     "mapbox-gl": "^1.5.0",
     "node-fetch": "^2.6.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "ol": "^5.3.3",
     "ol-mapbox-style": "^4.3.1",
     "proj4": "^2.5.0",
